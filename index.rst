@@ -7,23 +7,23 @@
 .. figure:: _static/expresso_logo.png
    :align:  center
 
-More text here to explain the device etc.
 
-YouTube video ???
-
-* Link to Software - https://bitbucket.org/iorodeo/expresso_device_software
-* Link to design files - https://bitbucket.org/iorodeo/expresso_device_hardware
-
+The expresso sensor system is designed for performing automated, realtime,
+multi-channel fly capillary feeding assays.  The expresso sensor bank consists
+of five independent feeding channels. Each feeding channel has its
+own glass feeding capillary which sits along a linear array optical sensor.  A
+micro-controller samples the data from the optical sensor and  detects the
+liquid food level in the capillary. Custom data acquisition software records
+the time vs liquid level for one or more sensor banks. 
 
 Table of Contents
 ====================================
 
-
-
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
-   hardware.rst
-   software.rst
+   hardware_design_files.rst
+   device_software.rst
+   analysis_software.rst
 
 
